@@ -11,6 +11,7 @@
                         icon="fa-envelope-o"
                         attrs="{'invisible': [('members_count', '=', 0)]}">
                     <div class="o_field_widget o_stat_info">
+                        <field name="members_count"/>
                         <span class="o_stat_text">Mail Attendees</span>
                     </div>
                 </button>
